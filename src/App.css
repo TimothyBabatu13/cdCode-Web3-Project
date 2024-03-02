@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+.large--screen {
+  display: none !important; 
+}
+.but--input:focus {
+  border: none;
+  outline: none;
+}
+.search--input::placeholder {
+  color: #FFFFFF;
+}
+.mobile--btn {
+  display: none !important;
+}
+/* 
+  960px
+  768px
+  320px
+*/
+@media screen and (max-width: 960px) {
+  .header--link {
+    font-size: 15px !important;
+  }
+  .header--link--buy{
+    font-size: 12px !important;
+  }
+  .header--link--connect--btn{
+    font-size: 13px !important;
+  }
+  .home--heading--text{
+    font-size: 40px !important;
+  }
+  .home--heading--text--second{
+    font-size: 20px !important;
+  }
+  .home--btn {
+    font-size: 14px !important;
+  }
+  .card--img {
+    height: auto !important;
+  }
+  .card--duration{
+    font-size: 12px !important;
+  }
+  .card--circle {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .card--title {
+    font-size: 15px;
+  }
+  .card--desc{
+    font-size: 13px !important;
+  }
+  .supported--chain{
+    font-size: 16px !important;
+  }
+  .home--sub--heading {
+    font-size: 16px !important;
+  }
+  .buy--earn--text{
+    font-size: 35px !important;
+  }
+  .buy--defi--text{
+    font-size: 25px !important;
+  }
+  .buy--total--raised--text{
+    font-size: 25px !important;
+  }
+  .buy--total--amount--raised--text{
+    font-size: 35px !important;
+  }
+  
+  .token--info {
+    font-size: 13px !important;
+  }
+  .tier--white--heading{
+    font-size: 15px !important;
+  }
+  .tier--white--table {
+    font-size: 12px !important;
+  }
+  .tier--white--btn {
+    font-size: 14px !important;
+  }
+  .top--card--container{
+    height: 300px !important;
+  }
+  .top--card--height {
+    min-height: 230px !important;
+  }
+  .top--card--desc {
+    font-size: 12px !important;
+  }
+  .top--card--circle {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
+@media screen and (max-width: 904px) {
+  .hide {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .large--screen{
+    display: flex !important;
+  }
+  .mobile {
+    display: none !important;
+  }
+  .header--link{
+    padding: 10px 0 !important;
+    font-size: 20px !important;
+  }
+  .header--link--buy {
+    font-size: 17px !important;
+  }
+  .mobile--btn {
+    display: grid !important;
+  }
+  .card--container {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  form {
+    width: 90% !important;
+  }
+  /* .real--card--container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .home--heading--text{
+    font-size: 31px !important;
+  }
+  .home--heading--text--second{
+    font-size: 15px !important;
+  }
+  .highlight--img {
+    height: auto !important;
+  }
+  .highlight--img--{
+    height: 100px !important;
+  }
+  .home--btn {
+    font-size: 11px !important;
+    padding: 10px 15px !important;
+  }
+  .buy--grid--container {
+    grid-template-columns: 1fr !important;
+  }
+  .buy .flex {
+    flex-direction: column !important;
+    /* display: none !important; */
+    justify-content: flex-start !important;
+  }
+  .buy--earn--text, .buy--defi--text, .buy--total--raised--text, .buy--total--amount--raised--text{
+    margin-bottom: 10px !important;
+  }
+  .text--align--right {
+    text-align: left !important;
+    margin-top: 30px !important;
+  }
+  .tier--white--table {
+    font-size: 15px !important;
+  }
+  .tier--white--heading{
+    font-size: 25px !important;
+  }
+  .tier--white--heading h6 {
+    font-size: 14px !important;
+  }
+  .tier--white--btn {
+    font-size: 18px !important;
+  }
+  .justify--center {
+    justify-content: flex-start !important;
+  }
+  .token--info {
+    width: 30% !important;
+  }
+  .info--on--presale {
+    width: 100% !important;
+  }
+ footer .flex--column{
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+ }
+ footer .grid {
+  margin-left: 0 !important;
+  width: 100% !important;
+  margin-top: 30px !important;
+ }
+ footer .last--flex {
+  justify-content: flex-start !important;
+  margin-top: 20px !important;
+ }
+ footer .grid a {
+  font-size: 17px !important;
+ }
+ .search--text {
+  display: none !important;
+ }
+}
+
+@media screen and (max-width: 490px) {
+  .home--btn--container {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .home--btn{
+    padding: 10px !important;
+  }
+  .mobile--btn div {
+    width: 20px !important;
+  }
+  .tier--white--table {
+    font-size: 11px !important;
+  }
+  .info--on--presale{
+    display: none !important;
+  }
+  form {
+    padding: 0 20px !important;
+  }
+  .info--on--presale h3{
+    font-size: 10px !important;
+  }
+  .info--on--presale h5{
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .home--heading--text{
+    font-size: 20px !important;
+  }
+  .home--heading--text--second{
+    font-size: 15px !important;
+  }
+  .card--container {
+    grid-template-columns: 1fr !important;
+  }
+  .token--info {
+    width: 50% !important;
+  }
+  footer .grid {
+    grid-template-columns: 1fr !important;
+   }
+   footer .links--container{
+    margin-left: 0 !important;
+    margin-bottom: 20px !important;
+   }
+}
